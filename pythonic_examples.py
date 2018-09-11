@@ -44,34 +44,34 @@ date_str[6:]   # '15'
 # Print each item in a list - not Pythonic.
 n = 0
 while n < len(animals):
-    print animals[n]
+    print(animals[n])
     n += 1
 
 # Print each item in a list - Pythonic.
 for animal in animals:
-    print animal
+    print(animal)
 
 # Print the first 7 even numbers - not Pythonic.
 n = 1
 while n <= 7:
-    print n * 2
+    print(n * 2)
     n += 1
 
 # Print the first 7 even numbers - Pythonic.
 for n in range(7):
-    print (n + 1) * 2
+    print((n + 1) * 2)
 
 # Iterating over a list gives the elements.
 for animal in animals:
-    print animal
+    print(animal)
 
 # Iterating over a string gives the characters.
 for c in s:
-    print c
+    print(c)
 
 # Iterating over a dictionary gives the keys.
 for state in state_capitals:
-    print state, state_capitals[state]
+    print(state, state_capitals[state])
 
 # Tests ---------------------------------------------------
 
@@ -79,7 +79,7 @@ for state in state_capitals:
 'r' in s
 
 if 'r' in s:
-    print 'The letter "r" is there'
+    print('The letter "r" is there')
 
 'x' in s
 
